@@ -75,15 +75,29 @@ div#me {
 	color: white;
 }
 
+div#me a:link {
+	text-decoration: none;
+	color: white;
+}
+
+div#me a:hover {
+	color: yellow;
+}
+
 div#other {
 	padding: 30px;
 	position: absolute;
-	left: 30%;
+	left: 32%;
 	width: 30%;
 }
 
 audio {
 	width: 100%;
+	padding: 20px;
+}
+
+video {
+	padding: 20px;
 }
 
 div#img {
